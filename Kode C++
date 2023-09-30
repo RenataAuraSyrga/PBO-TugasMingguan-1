@@ -1,0 +1,52 @@
+//Kode C++
+
+int main() {
+    // 1.Variabel
+    int angka = 5;
+
+    // 2.Tipe Data
+    double nilai = 3.14;
+
+    // 3.For Loop
+    for (int i = 0; i < 5; i++) {
+        cout << "Iterasi ke-" << i << endl;
+    }
+
+    // 4.If Statement
+    if (angka > 3) {
+        cout << "Angka lebih besar dari 3" << endl;
+    }
+
+    // 5.While Loop
+    int j = 0;
+    while (j < 3) {
+        cout << "Nilai j: " << j << endl;
+        j++;
+    }
+
+    // 7.Do-While Loop
+    int k = 0;
+    do {
+        cout << "Nilai k: " << k << endl;
+        k++;
+    } while (k < 2);
+
+    // 8.Array Satu Dimensi
+    int arr[5] = {1, 2, 3, 4, 5};
+
+    // 9.Array Multidimensi
+    int matrix[2][3] = {{1, 2, 3}, {4, 5, 6}};
+
+    // 10.Input
+    int input;
+    cout << "Masukkan sebuah angka: ";
+    cin >> input;
+
+    // 11.Output
+    cout << "Nilai yang dimasukkan: " << input << endl;
+
+    // 12.Comment
+    // Ini adalah contoh komentar satu baris
+
+    return 0;
+}
