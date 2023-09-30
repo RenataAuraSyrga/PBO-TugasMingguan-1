@@ -1,0 +1,52 @@
+     //1.Main Program
+public class Main {
+    public static void main(String[] args) {
+        
+        // 2.Variabel
+        int angka = 5;
+
+        // 3.Tipe Data
+        double nilai = 3.14;
+
+        // 4.For Loop
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Iterasi ke-" + i);
+        }
+
+        // 5.If Statement
+        if (angka > 3) {
+            System.out.println("Angka lebih besar dari 3");
+        }
+
+        // 6.While Loop
+        int j = 0;
+        while (j < 3) {
+            System.out.println("Nilai j: " + j);
+            j++;
+        }
+
+        // 7.Do-While Loop
+        int k = 0;
+        do {
+            System.out.println("Nilai k: " + k);
+            k++;
+        } while (k < 2);
+
+        // 8.Array Satu Dimensi
+        int[] arr = {1, 2, 3, 4, 5};
+
+        // 9.Array Multidimensi
+        int[][] matrix = {{1, 2, 3}, {4, 5, 6}};
+
+        // 10.Input
+        java.util.Scanner input = new java.util.Scanner(System.in);
+        System.out.print("Masukkan sebuah angka: ");
+        int userInput = input.nextInt();
+
+        // 11.Output
+        System.out.println("Nilai yang dimasukkan: " + userInput);
+
+        // 12.Comment
+        // Ini adalah contoh komentar satu baris
+    }
+}
